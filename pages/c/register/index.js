@@ -83,7 +83,12 @@ const Register = () => {
           <Text color={"gray"} fontSize={"17pt"} textAlign={"center"}>
             Lets get you started.
           </Text>
-          <form>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              router.push("/c/pricing");
+            }}
+          >
             <Flex
               direction={"column"}
               alignItems={"center"}

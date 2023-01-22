@@ -24,7 +24,7 @@ const Main = () => {
   return (
     <>
       <Head>
-        <title>Call-It - Main Page</title>
+        <title>Call-It - AI Powered Calling</title>
         <meta
           name="description"
           content="Unlock the power of AI for your marketing and user retention efforts with Call-It, the startup revolutionizing cold calling. Let our cutting-edge technology take the lead in reaching and engaging with your target audience, resulting in increased conversions and customer satisfaction."
@@ -76,6 +76,9 @@ const Main = () => {
             fontWeight={600}
             borderRadius={50}
             colorScheme={"transparent"}
+            _hover={{
+              opacity: 0.8,
+            }}
             onClick={() => router.push("/c/register")}
           >
             Try It Free
@@ -116,6 +119,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               Try It Free
@@ -169,6 +175,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               AI Cold Call
@@ -237,6 +246,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               Increase Reputation
@@ -288,9 +300,12 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
-              Increase Reputation
+              Use Analytics
             </Button>
           </Flex>
           <img
@@ -355,6 +370,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               Generate Custom Messages
@@ -405,6 +423,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               Call-It Effect
@@ -467,6 +488,9 @@ const Main = () => {
               paddingRight={10}
               paddingTop={6}
               paddingBottom={6}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/register")}
             >
               Try It Free
@@ -518,6 +542,9 @@ const Main = () => {
               color={"#E8761C"}
               fontSize={"18pt"}
               fontWeight={900}
+              _hover={{
+                opacity: 0.8,
+              }}
               onClick={() => router.push("/c/main")}
             >
               Call-It

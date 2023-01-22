@@ -83,7 +83,12 @@ const Login = () => {
           <Text color={"gray"} fontSize={"17pt"} textAlign={"center"}>
             It's time to promote.
           </Text>
-          <form>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              router.push("/c/pricing");
+            }}
+          >
             <Flex
               direction={"column"}
               alignItems={"center"}
